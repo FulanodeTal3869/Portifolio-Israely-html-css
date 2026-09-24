@@ -1,0 +1,75 @@
+
+html body {
+    height: auto;
+    max-height: 90px;
+    background-color: rgb(239, 245, 243);
+    overflow: auto;
+    margin: 0;
+    display: flexbox;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("fundo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Painel{
+
+    display: flexbox;
+    background-color: rgb(16, 78, 129);
+    width: auto;
+    height: 150px;
+    position: relative;
+    top: -10px;
+    border: 3px solid rgba(21, 255, 0, 0.433);
+    display: grid;
+    place-items: center;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+.Controle{ 
+    
+    text-align: center;
+    background-color: rgb(16, 78, 129);
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 550px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    top: -13px;
+    border: 3px solid rgba(21, 255, 0, 0.433);
+    border-top: none;
+
+}
+.Inferior{
+    background-color:   rgb(16, 78, 129);
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    border: 3px solid rgba(21, 255, 0, 0.433);
+}
+.Controle a{
+
+    background-color: rgb(0, 12, 139);
+    border: 3px solid rgb(0, 140, 255);
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 90px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Controle a:link{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
